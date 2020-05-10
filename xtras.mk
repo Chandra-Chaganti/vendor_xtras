@@ -23,6 +23,7 @@ endif
 
 ifeq ($(TARGET_HAS_FOD),true)
 DEVICE_PACKAGE_OVERLAYS += vendor/xtras/overlay-fod
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/xtras/overlay-fod
 endif
 
 # Include Xtended theme files
